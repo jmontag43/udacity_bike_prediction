@@ -6,9 +6,9 @@ In this specific project, we were tasked with creating a basic neural network wi
 
 ## Requirements
 
-- [Python 3.6](https://www.python.org/downloads/release/python-367/) (Any Python 3 interpreter should work here, but 3.6 was used to run them)
+- [Python 3.6](https://www.python.org/downloads/release/python-367/) (Any Python 3 interpreter should work here, but 3.6 was used to run this project)
 - (Optional for Docker support) [Docker](https://docs.docker.com/install/), (For GPU support) [nvidia-docker](https://github.com/NVIDIA/nvidia-docker)
-- See requirements.txt for a list of other required packages. Not all are needed for this particular project, but this list covers all necessary packages for the environment which was used for all the Udacity Deep Learning projects.
+- See requirements.txt for a list of other required packages.
 
 
 # Run the Project
