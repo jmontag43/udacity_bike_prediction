@@ -48,7 +48,7 @@ $ source myenv/bin/activate
 ```
 **Note 1: Some shells (e.g. fish) require a different source command. In the fish example: `. myenv/bin/activate.fish`**
 
-**Note 2: I have had issues getting the GPU to work for some of the projects with RTX 20XX cards due to the fact that TensorFlow 1.12 requires CUDA 9.0. Your mileage may vary.**
+**Note 2: I have had issues getting the GPU to work for some of the projects with RTX 20XX cards due to the fact that pre-built TensorFlow 1.12 requires CUDA 9.0 which is incompatible with RTX 20XX.**
 
 This will start a [Jupyter Notebook](https://jupyter.org/) server on localhost at port 8888. You can then access the projects by copying the on screen link into your web browser: `http://127.0.0.1:8888/?token=...` and using the on screen GUI to run the Jupyter Notebook `.ipynb` files.
 
